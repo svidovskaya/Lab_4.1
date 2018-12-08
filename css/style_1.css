@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face
+{
+    font-family: 'CatamaranMedium';
+    src: url('../fonts/Catamaran-Medium.ttf');
+}
+
+@font-face
+{
+    font-family: 'CatamaranRegular';
+    src: url('../fonts/Catamaran-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'CatamaranLight';
+    src: url('../fonts/Catamaran-Light.ttf');
+}
+
+@font-face
+{
+    font-family: 'CatamaranBlack';
+    src: url('../fonts/Catamaran-Black.ttf');
+}
+.setting {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row {
+	height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background: url(../img/3.png) center center no-repeat;
+    background-size: cover;
+}
+
+.registr_2{
+	margin: 120px 0;
+}
+
+.dop_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+	margin-top: 55px;
+	font-family: 'CatamaranMedium';
+	font-size: 36px;
+	letter-spacing: 3.6px;
+	color: #333333;
+	max-width: 350px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.registe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /*box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7); */
+    background-color: #333333;
+    opacity: 0.9;
+}
+.dop_3{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+.form-input{
+	width: 347px;
+	height: 40px;
+	display: block;
+	background-color: #ffffff;
+	border: 0px;
+	margin-bottom: 15px;
+	padding: 0 0 0 10px;
+}
+
+.form-lable{
+	display: block;
+	color: #ffffff;
+	font-family: 'CatamaranLight', sana-serif;
+	font-size: 16px;
+	letter-spacing: 1.6px;
+	text-align: left;
+	margin-bottom: 10px;
+	line-height: 1.2;
+	max-width: 320px;
+}
+
+.form-buttonReg{
+	width: 100%;
+	background-color: #ff6600;
+	border: 0px;
+	color: #333333;
+	font-family: 'CatamaranBlack';
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+.dop_3_form{
+	margin: 20px 17px 35px 13px;
+}
+.dop_2{
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cl_1, .cl_2{
+    display: flex;
+    width: 195px;
+    height: 58px;
+    justify-content: center;
+    align-items: center
+}
+.cl_2{
+    background: rgba(255, 255, 255, 0.7);
+}
+.cl_1 p{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+}
+.cl_2 p{
+    color: #333333;
+    font-family: 'Catamaran';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;  
+    letter-spacing: 1.8px;
+}
+
+.content_wrap{
+	display: flex;
+    flex-flow: column;
+    
+}
+.t_2{
+  
+	margin-top: 30px;
+
+
+}
+.t_2 p{
+    color: #333333;
+    font-family: 'Catamaran';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+}
+
+.b{
+	display: flex;
+	margin-top: 30px;
+	font-size: 36px;
+	font-family: 'CatamaranBlack';
+	color: #00a8b2;
+}
+.dop_4{
+    margin-top: 48px;
+    
+}
+
+
+.pict{
+	margin-left: auto;
+	margin-right: auto;
+	width: 68px;
+	height: 68px;
+}
+
+
+.bottom-pict{
+	text-align: center;
+	color: #00a8b2;
+	font-family: "CatamaranBlack";
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+}
+
+
+.text_pict{
+    font-family: 'CatamaranLight';
+    font-weight: 300;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.pict_1, .pict_2, .pict_3, .pict_4{
+	height: 250px;
+	max-width: 250px;
+	display: flex;
+	flex-flow: column;
+}
+
+.rectangle{
+    display: flex;
+    margin-right: 70px;
+    height: 121px;
+    background-color: rgb(51, 51, 51);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_footer{
+    margin-left: 54px;
+}
+.logo_1_footer{
+  width: 160px;
+  height: 64px;
+}
+
+.footer_text{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 1.6px;
+}
+  
+.footer_text::after{     
+    content: '';     
+    width: 35px;     
+    height: 3px;
+    background-color: #ffffff;    
+    position: absolute;     
+    top: 18px;
+    right: 0; 
+}
+  
+.footer_text::before{
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+  .footer_text {
+    position: relative;
+    width: 220px;
+}
+  
+   
+html,
+body {
+  height: 100%;
+}
+.wrapper_1 {
+  position: relative;
+  min-height: 100%;
+background-color: #ffffff;
+}
+.wrap_1 {
+  padding-bottom: 156px;
+}
+footer {
+  position: absolute;
+  background-color: #333333;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media(min-width: 320px)
+  {
+    .setting {
+        width: 300px;
+    }
+  }
+
+@media(min-width: 768px)
+  {
+    .setting  {
+        width: 740px;
+    }
+    .pict_1, .pict_2, .pict_3, .pict_4{
+        height: 100px;
+        max-width: 100px;
+       
+    }
+    .pict{
+        margin-left: auto;
+        margin-right: auto;
+        width: 45px;
+        height: 45px;
+    }
+    
+    .bottom-pict{
+        font-size: 9px;
+    }
+    
+    
+    .text_pict{
+        font-size: 9px;
+        letter-spacing: 1.6px;
+        line-height: 15px;
+    }
+  }
+  
+@media(min-width: 1024px)
+  {
+    .setting  {
+        width: 940px;
+    }
+    .pict_1, .pict_2, .pict_3, .pict_4{
+        height: 250px;
+        max-width: 250px;
+    }
+    .pict{
+        width: 68px;
+        height: 68px;
+    }
+    
+    
+    .bottom-pict{
+        font-size: 18px;
+        letter-spacing: 1.8px;
+    }
+    
+    .text_pict{
+        font-family: 'CatamaranLight';
+        font-weight: 300;
+        font-size: 15px;
+        letter-spacing: 1.6px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    
+  }
+  
